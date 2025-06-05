@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -22,6 +23,7 @@ public class CollectionChoiceExercises {
         colors1[1] = "Green";
         colors1[2] = "Blue";
 
+        System.out.println(Arrays.toString(colors1));
         //Or
 
         String[] colors2 = {"Red", "Green", "Blue"};
@@ -46,6 +48,10 @@ public class CollectionChoiceExercises {
 
         HashSet<String> usernames = new HashSet<>();
         usernames.add("savionRj");
+        usernames.add("DarrenH");
+        usernames.add("AliT");
+        System.out.println(usernames);
+
 
     }
 
@@ -55,5 +61,6 @@ public class CollectionChoiceExercises {
         // value is an employee access code (String.)
         HashMap<String, String> employeeAccess = new HashMap<>();
         employeeAccess.put("SavionRj", "aunfna93q" );
+        System.out.println(employeeAccess);
     }
 }
